@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Amazon page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- intestazione della pagina -->
+    <header>
+        <!-- contenitore del logo superiore -->
+        <div id="top-logo" class="logo">
+            <img src="./assets/logo.png" alt="amazon logo">
+        </div>
+    </header>
+
+     <!-- menu -->
+     <nav>
+        <div id="menu" class="flex-row-center">
+            <a href="#">All</a>
+            <a href="#">Today's deal</a>
+            <a href="#">Customer Service</a>
+            <a href="#">Registry</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Sell</a>
+        </div>
+    </nav>
+
+    <!-- contenuto principale della pagina -->
+    <main class="flex-column-center">
+
+        <!-- sezione in alto -->
+        <section class="main-container" id="top-section">
+            <div id="top-description" class="flex-row-center">
+                <div class="flex-row-center">
+                    <span>Shop All Holiday Gift Cards</span>
+                </div>
+            </div>
+            <div id="background-img" class="flex-column-center">
+                <span>Holiday Gift Guides</span>
+                <span>Be a go-gifter</span>
+            </div>
+        </section>
+
+        <!-- sezione contenente le immagini affiancate -->
+        <section class="main-container img-container" id="container1">
+            <div id="title" class="flex-row-center">
+                <span><strong>Find the perfet gift <a href="#">Shop now</a></strong></span>
+            </div>
+            <div id="boxes">
+                <div class="img-box">
+                    <img src="./assets/img_1.jpg" alt="">
+                </div>
+                <div class="img-box">
+                    <img src="./assets/img_2.jpg" alt="">
+                </div>
+                <div class="img-box">
+                    <img src="./assets/img_3.jpg" alt="">
+                </div>
+                <div class="img-box">
+                    <img src="./assets/img_4.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- prima sezione contenente una sola immagine-->
+        <section class="main-container img-container" id="container2">
+            <img src="./assets/img_9.png" alt="">
+            <span><strong>Play the gitting game <a href="#">Shop gaming</a></strong></span>
+        </section>
+
+        <!-- seconda sezione contenente una sola immagine-->
+        <section class="main-container img-container" id="container3">
+            <img src="./assets/img_10.png" alt="">
+            <span><strong>The sound of choer <a href="#">Shop Audio & Accessories</a></strong></span>
+        </section>
+    </main>
+
+    <!-- piè di pagina -->
+    <footer>
+        <div id="bottom-description" class="flex-row-center">
+            <span><a href="#top-logo">Back to Top</a></span>
+        </div>
+        <div id="bottom-logo" class="logo flex-row-center">
+            <img src="./assets/logo.png" alt="amazon logo">
+        </div>
+    </footer>
+</body>
+</html>
